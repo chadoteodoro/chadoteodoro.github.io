@@ -97,7 +97,7 @@ function launchConfetti(duration = 3500) {
 
   const canvas = $("#confettiCanvas");
   const context = canvas.getContext("2d");
-  const colors = ["#667b38", "#9ca76a", "#d3ad3d", "#f4d87d", "#fff8e9", "#355229"];
+  const colors = ["#355229", "#556b2f", "#7f9449", "#caa53e", "#efcf70"];
   const particles = Array.from({ length: 150 }, (_, index) => ({
     x: Math.random() * innerWidth,
     y: -20 - Math.random() * innerHeight * 0.55,
@@ -167,3 +167,7 @@ setupReveal();
 setupLinks();
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+if (Date.now() < eventDate.getTime()) {
+  setTimeout(() => launchConfetti(3000), 550);
+}

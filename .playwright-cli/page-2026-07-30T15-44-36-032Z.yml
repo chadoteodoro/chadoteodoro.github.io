@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Patinho fofo com laço verde em um jardim delicado" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - paragraph [ref=e8]: Um dia cheio de amor está chegando
+          - generic "Chá de bebê" [ref=e9]
+          - heading "do nosso querido Teodoro" [level=1] [ref=e11]:
+            - generic [ref=e12]: do nosso querido
+            - text: Teodoro
+          - paragraph [ref=e13]: Com muito carinho, convidamos você para celebrar conosco a doce espera do nosso pequeno.
+          - generic [ref=e14]:
+            - link "Confirmar presença" [ref=e15] [cursor=pointer]:
+              - /url: "#presenca"
+            - link "Ver contagem" [ref=e18] [cursor=pointer]:
+              - /url: "#contagem"
+        - complementary "Data do evento" [ref=e19]:
+          - generic [ref=e20]: Outubro
+          - strong [ref=e21]: "17"
+          - generic [ref=e22]: 2026 · sábado
+    - generic [ref=e27]:
+      - generic [ref=e28]: ♥
+      - paragraph [ref=e29]: Nosso coração já está em festa
+      - heading "Um pequeno patinho está quase chegando ao ninho." [level=2] [ref=e30]: Um pequeno patinho estáquase chegando ao ninho.
+      - paragraph [ref=e31]: Estamos preparando uma tarde especial, cheia de carinho, risadas e memórias bonitas. Sua presença vai deixar esse momento ainda mais inesquecível.
+      - generic [ref=e32]: ♥
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Marque no calendário
+        - heading "Faltam só..." [level=2] [ref=e40]
+        - paragraph [ref=e41]: Estamos contando cada dia para celebrar a chegada do Teodoro ao lado de pessoas queridas.
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: "79"
+          - generic [ref=e45]: dias
+        - generic [ref=e47]:
+          - generic [ref=e48]: "02"
+          - generic [ref=e49]: horas
+        - generic [ref=e51]:
+          - generic [ref=e52]: "15"
+          - generic [ref=e53]: minutos
+        - generic [ref=e55]:
+          - generic [ref=e56]: "24"
+          - generic [ref=e57]: segundos
+      - generic [ref=e58]: ●
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: Anote direitinho
+        - heading "Os detalhes do nosso encontro" [level=2] [ref=e66]
+      - generic [ref=e67]:
+        - article [ref=e68]:
+          - text: Quando
+          - heading "17 de outubro" [level=3] [ref=e73]
+          - paragraph [ref=e74]: Sábado, 2026
+        - article [ref=e75]:
+          - text: Horário
+          - heading "Das 15h às 18h" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Chegue para curtir tudo
+        - article [ref=e82]:
+          - text: Onde
+          - heading "R. Dr. Bolívar, 382" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Toque abaixo para abrir a rota
+      - generic [ref=e88]:
+        - generic [ref=e89]: ♥
+        - paragraph [ref=e90]:
+          - strong [ref=e91]: O melhor presente é ter você com a gente.
+          - text: Venha com o coração leve e pronto para celebrar!
+    - generic [ref=e93]:
+      - generic [ref=e99]:
+        - paragraph [ref=e100]: Um carinho para o nosso pequeno
+        - heading "Sugestão de presente" [level=2] [ref=e101]
+        - paragraph [ref=e102]: Se você quiser mimar o Teodoro, estas opções serão muito bem-vindas.
+      - generic [ref=e103]:
+        - article [ref=e104]:
+          - generic [ref=e105]: "01"
+          - generic [ref=e106]:
+            - heading "Fraldas descartáveis" [level=3] [ref=e107]
+            - paragraph [ref=e108]: Tamanhos P, M ou G
+            - strong [ref=e109]: "Preferência: tamanhos M e G"
+        - article [ref=e110]:
+          - generic [ref=e111]: "02"
+          - generic [ref=e112]:
+            - heading "Lenço umedecido" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Todo cuidado é bem-vindo!
+      - paragraph [ref=e115]: "♥ Mas lembre-se: sua presença é o nosso maior presente."
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e122]: ●
+        - generic [ref=e123]: ●
+      - generic [ref=e128]:
+        - paragraph [ref=e129]: É bem fácil chegar
+        - heading "Te esperamos por aqui." [level=2] [ref=e130]: Te esperamospor aqui.
+        - paragraph [ref=e131]: Abra a localização no seu celular e trace a melhor rota até a nossa comemoração.
+        - generic [ref=e132]:
+          - generic [ref=e133]: Local do chá
+          - text: R. Dr. Bolívar, 382 Ponto Chic, Nova Iguaçu - RJ CEP 26030-480
+        - link "Abrir no Google Maps" [ref=e134] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=R.%20Dr.%20Bol%C3%ADvar%2C%20382%20-%20Ponto%20Chic%2C%20Nova%20Igua%C3%A7u%20-%20RJ%2C%2026030-480
+    - generic [ref=e138]:
+      - generic [ref=e139]: ♥
+      - paragraph [ref=e140]: Vai ser lindo ter você lá
+      - heading "Confirme sua presença" [level=2] [ref=e141]
+      - paragraph [ref=e142]: Preencha seu nome e toque no botão. O WhatsApp abrirá com uma mensagem carinhosa prontinha para enviar.
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: Seu nome
+          - textbox "Seu nome" [ref=e146]:
+            - /placeholder: Como podemos te chamar?
+        - generic [ref=e147]:
+          - generic [ref=e148]: Quantas pessoas?
+          - combobox "Quantas pessoas?" [ref=e149]:
+            - option "Só eu" [selected]
+            - option "2 pessoas"
+            - option "3 pessoas"
+            - option "4 pessoas"
+            - option "5 pessoas"
+        - button "Confirmar pelo WhatsApp" [ref=e150] [cursor=pointer]
+      - generic [ref=e154]:
+        - text: Você poderá revisar a mensagem antes de enviar.
+        - 'link "Confirmações: +55 (21) 98417-2980" [ref=e155] [cursor=pointer]':
+          - /url: tel:+5521984172980
+  - contentinfo [ref=e156]:
+    - generic [ref=e157]: ♥
+    - paragraph [ref=e158]: Feito com muito amor para o
+    - strong [ref=e159]: Chá do Teodoro
+    - generic [ref=e160]: 17 · 10 · 2026
+  - status:
+    - generic: ♥
+    - paragraph
