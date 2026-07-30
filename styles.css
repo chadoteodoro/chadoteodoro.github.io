@@ -1517,11 +1517,7 @@ select:focus-visible {
       linear-gradient(90deg, rgba(255, 251, 238, .63) 0%, rgba(255, 251, 238, .3) 58%, rgba(255,251,238,.03) 100%),
       linear-gradient(180deg, rgba(255,251,238,.22) 0%, transparent 55%, rgba(48,66,29,.12) 100%);
   }
-
-  .hero-content {
-    width: calc(100% - 38px);
-  }
-
+  
   .hero-copy {
     top: 49%;
     width: 58%;
@@ -1610,7 +1606,7 @@ select:focus-visible {
     background-color: #fbf5e5;
     background-position: 74% bottom;
     background-repeat: no-repeat;
-    background-size: auto 96%;
+    background-size: auto 100%;
   }
 
   .hero-wash {
