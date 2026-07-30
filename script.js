@@ -39,32 +39,6 @@ function updateCountdown() {
   $("#progressDuck").style.left = `${progress}%`;
 }
 
-function setupNavigation() {
-  const header = $("#siteHeader");
-  const button = $("#menuButton");
-  const nav = $("#mobileNav");
-
-  const closeMenu = () => {
-    button.setAttribute("aria-expanded", "false");
-    button.setAttribute("aria-label", "Abrir menu");
-    nav.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("menu-open");
-  };
-
-  button.addEventListener("click", () => {
-    const isOpen = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", String(!isOpen));
-    button.setAttribute("aria-label", isOpen ? "Abrir menu" : "Fechar menu");
-    nav.setAttribute("aria-hidden", String(isOpen));
-    document.body.classList.toggle("menu-open", !isOpen);
-  });
-
-  $$("a", nav).forEach(link => link.addEventListener("click", closeMenu));
-  window.addEventListener("scroll", () => {
-    header.classList.toggle("scrolled", window.scrollY > 32);
-  }, { passive: true });
-}
-
 function setupReveal() {
   const elements = $$(".reveal, .reveal-item");
   if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -189,7 +163,6 @@ function launchConfetti(duration = 3500) {
 }
 
 $("#celebrateButton")?.addEventListener("click", () => launchConfetti(4200));
-setupNavigation();
 setupReveal();
 setupLinks();
 updateCountdown();

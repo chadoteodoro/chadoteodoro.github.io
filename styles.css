@@ -1509,7 +1509,7 @@ select:focus-visible {
   }
 
   .hero-art {
-    background-position: 58% center;
+    background-position: right center;
   }
 
   .hero-wash {
@@ -1607,8 +1607,10 @@ select:focus-visible {
   }
 
   .hero-art {
-    background-position: 69% bottom;
-    background-size: auto 100%;
+    background-color: #fbf5e5;
+    background-position: 74% bottom;
+    background-repeat: no-repeat;
+    background-size: auto 96%;
   }
 
   .hero-wash {
@@ -1618,7 +1620,7 @@ select:focus-visible {
   }
 
   .hero-copy {
-    top: 117px;
+    top: 78px;
     left: 0;
     width: 92%;
     transform: none;
